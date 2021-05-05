@@ -1,0 +1,22 @@
++ArrowFunction (Versão ES2015)
+
+let dobro = function (a) {
+    return 2 * a
+}
+
+dobro = (a) => {
+    return 2 * a 
+}
+
+dobro = a => 2 * a // return implícito - FUNÇÃO ARROW - funções de uma única linha
+console.log(dobro(Math.PI))
+// 6.2831...//dobro do PI
+
+let ola = function () {
+    return 'Olá'
+}
+
+ola = () => 'Olá' - FUNÇÃO ARROW
+ola = _ => 'Olá' // possui um param - FUNÇÃO ARROW 
+console.log(ola())
+// Olá
