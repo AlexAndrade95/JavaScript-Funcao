@@ -1,8 +1,9 @@
+//Se JavaScript fosse país, a funcao seria o Presidente!!!
 //Funcao possibilidades
 
 /* Funcao em JS e´ First-Class Object (Citizens)
    Higher-order function
-   uma funcao sempre retorna por padr�o o valor udefined,
+   uma funcao sempre retorna por padrao o valor udefined,
 desde que nao tenha o return
 */
 
