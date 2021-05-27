@@ -16,7 +16,7 @@ comparaComThis(obj)
 
 let comparaComThisArrow = param => console.log(this === param)
 comparaComThisArrow(global)
-//false // por que arrow funcion no node o this esta dentro do modulo
+//false // por que arrow function no node o this esta dentro do modulo
 comparaComThisArrow(module.exports)
 //true
 
