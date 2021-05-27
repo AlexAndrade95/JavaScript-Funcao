@@ -3,7 +3,7 @@
 function Pessoa() {
     this.idade = 0
 
-    const self = this //uma forma de travar o this(n�o variar)
+    const self = this //uma forma de travar o this(nao variar)
     setInterval(function() {
         self.idade++
         console.log(self.idade)
@@ -11,4 +11,4 @@ function Pessoa() {
                                  multiplas linhas*/  
 }
 
-new Pessoa
+new Pessoa 
