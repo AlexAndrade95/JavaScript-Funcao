@@ -1,13 +1,16 @@
 //ArrowFunction (Versao ES2015)
 
+//padrao
 let dobro = function (a) {
     return 2 * a
 }
 
+//arrow function
 dobro = (a) => {
     return 2 * a 
 }
 
+//arrow function
 dobro = a => 2 * a // return implicito - FUNCAO ARROW - funcoes de uma unica linha
 console.log(dobro(Math.PI))
 // 6.2831...//dobro do PI
