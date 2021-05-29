@@ -1,5 +1,5 @@
 /* Funcoes anonimas 
-   e uma funcao sem nome 
+   e´ uma funcao sem nome 
  */
 const soma = function (x, y) {
     return x + y
@@ -10,14 +10,14 @@ const imprimirResultado = function (a, b, operacao = soma) {
 }
 
 imprimirResultado(3, 4)
-// 7
+//7
 imprimirResultado(3, 4, soma)
-// 7
+//7
 imprimirResultado(3, 4, function (x, y) {
     return x - y
 })
 //-1
-imprimirResultado(3, 4, (x, y) => x * y) // Arrow function (sempre sera anonima)
+imprimirResultado(3, 4, (x, y) => x * y) //Arrow function (sempre sera anonima)
 //12
 
 const pessoa = {
