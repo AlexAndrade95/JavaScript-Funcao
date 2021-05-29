@@ -1,9 +1,9 @@
 //Contexto lexico (Closure)
 
-// Closure e o escopo criado quando uma funcao e declarada
-// Esse escopo permite a funcao acessar e manipular variaveis externas e funcao
+//Closure e´ o escopo criado quando uma funcao e declarada
+//Esse escopo permite a funcao acessar e manipular variaveis externas a´ funcao
 
-// Contexto lexico em acao!
+//Contexto lexico em acao!
 
 const x = 'Global'
 
