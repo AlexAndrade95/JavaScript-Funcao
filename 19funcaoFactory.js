@@ -1,7 +1,7 @@
 /* funcao factory
 funcao que retorna um objeto */
 
-// Factory simples
+//Factory simples
 function criarPessoa() {
     return {
         nome: 'Ana',
