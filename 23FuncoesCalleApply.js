@@ -14,19 +14,18 @@ const produto = {
 global.preco = 20
 global.desc = 0.1
 console.log(getPreco())
-// R$ 18
+//R$ 18
 console.log(produto.getPreco())
-// R$ 3900.65
+//R$ 3900.65
 
 const carro = { preco: 49990, desc: 0.20 }
-
 console.log(getPreco.call(carro))
-// R$ 39992
+//R$ 39992
 console.log(getPreco.apply(carro))
-// R$ 39992
+//R$ 39992
 
-// diferenca de call e apply esta na passagem de parametros !!!
+//diferenca de call e apply esta na passagem de parametros !!!
 console.log(getPreco.call(carro, 0.17, '$'))
-//  $ 46790.64
+//$ 46790.64
 console.log(getPreco.apply(global, [0.17, '$']))
-//  $ 21.06
+//$ 21.06
