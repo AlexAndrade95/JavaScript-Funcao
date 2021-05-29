@@ -13,7 +13,7 @@ class Pessoa {
 
 const p1 = new Pessoa('Joao')
 p1.falar()
-// Meu nome e Joao // da problema no browser pq usa this
+//Meu nome e Joao //da problema no browser pq usa this
 
 //funcao factory:
 const criarPessoa = nome => {
@@ -24,20 +24,17 @@ const criarPessoa = nome => {
 
 const p2 = criarPessoa('Joao')
 p2.falar()
-// Meu nome e Joao // nao da problema no browser pq nao usa this
+//Meu nome e Joao //nao da problema no browser pq nao usa this
 
-//factory:
+//factory como funcao construtora:
+function Pessoa(nome)  {
+    this.nome = nome
 
-function Pessoa (nome)  {
-	this(nome) = nome
-        this.nome = nome
-    }
-
-    this.falar()= function {
+    this.falar = function() {
         console.log(`Meu nome e ${this.nome}`)
     }
-
+}
 const p1 = new Pessoa('Joao')
 p1.falar()
-// Meu nome e Joao
+//Meu nome e Joao
 
