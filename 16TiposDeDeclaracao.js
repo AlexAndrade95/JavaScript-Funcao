@@ -4,19 +4,19 @@ console.log(soma(3, 4))  /* o interpretador JS carrega as function declaration a
                            todos os codigos */
 //7
 
-// function declaration
+//function declaration
 function soma(x, y) {
     return x + y
 }
 
-// function expression
+//function expression
 const sub = function (x, y) {
     return x - y
 }
 console.log(sub(3, 4))
 //-1
 
-// named function expression
+//named function expression
 const mult = function mult(x, y) {
     return x * y
 }
