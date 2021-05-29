@@ -12,4 +12,4 @@ function exec() {
 }
 
 exec() //Local ou Global?
-// Global 
+//Global 
