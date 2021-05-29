@@ -1,10 +1,10 @@
 //Funcao construtora
 
 function Carro(velocidadeMaxima = 200, delta = 5) {
-    // atributo privado
+    //atributo privado
     let velocidadeAtual = 0 //preferencia por let
 
-    // metodo publico //publico por usar o this
+    //metodo publico //publico por usar o this
     this.acelerar = function () {
         if (velocidadeAtual + delta <= velocidadeMaxima) {
             velocidadeAtual += delta
@@ -13,7 +13,7 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
         }
     }
 
-    // metodo publico //publico por usar o this
+    //metodo publico //publico por usar o this
     this.getVelocidadeAtual = function () {
         return velocidadeAtual
     }
