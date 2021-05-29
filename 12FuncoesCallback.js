@@ -1,5 +1,4 @@
-/* Funcoes Callback 
-"Chamar de volta" */
+/* Funcoes Callback = "Chamar de volta" */
 
 const fabricantes = ["Mercedes", "Audi", "BMW"]
 
